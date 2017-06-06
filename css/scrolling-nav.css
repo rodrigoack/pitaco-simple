@@ -83,7 +83,7 @@ h1 {
 }
 
 .how-section {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 100px;
     background: #1B1F3A;
     color: #fafafa;
@@ -91,22 +91,44 @@ h1 {
 
 
 .where-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #FF7844;
 }
 
 .who-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #1B1F3A;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #FF7844;
+}
+
+
+/* Custom */
+
+.full-width-row {
+    overflow-x: hidden;
+}
+
+.full-width-row > div {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand img {
+    vertical-align: middle;
 }
