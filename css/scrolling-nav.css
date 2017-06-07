@@ -17,6 +17,11 @@ html {
     height: 100%;
 }
 
+hr {
+    border-color: #333;
+    border-width: 3px;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -27,6 +32,13 @@ html {
 
     .top-nav-collapse {
         padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 766px) {
+    .intro-header p{
+        font-size: 3rem; 
     }
 }
 
@@ -60,10 +72,11 @@ h1 {
 }
 
 .intro-section {
-    height: 100%;
+    height: 670px;
     padding-top: 200px;
     text-align: center;
-    background: #FF7844;
+    background: #c0c0c0;
+    background: url("../media/img/hip-square.png")
 }
 
 .intro-header p {
@@ -82,10 +95,10 @@ h1 {
 }
 
 .what-section {
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 100px;
     text-align: center;
-    background: #A64942;
+    background: #FF7844;
 }
 
 .how-section {
