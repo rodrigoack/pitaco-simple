@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+/* Background by Subtle Backgrounds */
 @import url('https://fonts.googleapis.com/css?family=Coda|Montserrat');
 
 body {
@@ -109,7 +110,6 @@ h1 {
     background: #1B1F3A;
     color: #fafafa;
 }
-
 
 .where-section {
     padding-top: 50px;
