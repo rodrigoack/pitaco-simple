@@ -68,7 +68,9 @@ of those sections to manage the look and feel of the site. */
 
 h1 {
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 3px solid;  
 }
 
 .intro-section {
@@ -96,7 +98,7 @@ h1 {
 
 .what-section {
     padding-top: 130px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     text-align: center;
     background: #FF7844;
 }
@@ -116,16 +118,16 @@ h1 {
 }
 
 .who-section {
-    height: 100%;
     padding-top: 50px;
+    height: 100%;
     text-align: center;
     background: #1B1F3A;
     color: #fafafa;
 }
 
 .contact-section {
-    height: 100%;
     padding-top: 50px;
+    height: 100%;
     text-align: center;
     background: #FF7844;
 }
