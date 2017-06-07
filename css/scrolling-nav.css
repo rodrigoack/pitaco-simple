@@ -4,9 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@import url('https://fonts.googleapis.com/css?family=Coda|Montserrat');
+
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -26,6 +29,7 @@ html {
         padding: 0;
     }
 }
+
 
 /* Navbar custom styles */
 .navbar-default, .navbar-collapse {
@@ -52,22 +56,24 @@ of those sections to manage the look and feel of the site. */
 
 h1 {
     text-align: center;
+    font-weight: bold
 }
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
     text-align: center;
     background: #FF7844;
 }
 
 .intro-header p {
-    font-size: 5rem; 
+    font-size: 5.2rem; 
+    font-family: 'Coda', cursive;
 }
 
 .intro-sub-header {
     margin-top: 50px;
-    padding: 20px 0;
+    padding: 20px;
     background-color: #fafafa;
 }
 
@@ -101,6 +107,7 @@ h1 {
     padding-top: 50px;
     text-align: center;
     background: #1B1F3A;
+    color: #fafafa;
 }
 
 .contact-section {
