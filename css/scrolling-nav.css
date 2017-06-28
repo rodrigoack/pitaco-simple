@@ -74,6 +74,10 @@ h1 {
     border-bottom: 3px solid;  
 }
 
+h1.no-underline {
+    border-bottom: 0;
+}
+
 .intro-section {
     height: 670px;
     padding-top: 200px;
@@ -114,7 +118,7 @@ h1 {
 .where-section {
     padding-top: 50px;
     text-align: center;
-    background: #FF7844;
+    background: #fafafa;
 }
 
 .who-section {
@@ -154,3 +158,26 @@ h1 {
 .navbar-brand img {
     vertical-align: middle;
 }
+
+div.content-card {
+    margin: 20px 0;
+    height: 500px;
+    background: #fafafa;
+    text-align: left;
+    //box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3)
+}
+
+div.content-card > div.content-img {
+    width: 100%;
+    height: 200px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+div.content-card > div.content-text {
+    height: 175px;
+}
+
+a.read-more {
+    float: right    ;
+} 
