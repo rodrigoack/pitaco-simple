@@ -123,7 +123,6 @@ h1.no-underline {
 
 .who-section {
     padding-top: 50px;
-    height: 100%;
     text-align: center;
     background: #1B1F3A;
     color: #fafafa;
@@ -178,6 +177,27 @@ div.content-card > div.content-text {
     height: 175px;
 }
 
+div.content-card  h3  a {
+    color: #333;
+}
+
 a.read-more {
     float: right;
 } 
+
+div.profile {
+    margin: 20px 0;
+}
+
+div.profile div.profile-photo {
+    background: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+div.profile div.profile-content {
+
+}
