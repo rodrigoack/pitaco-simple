@@ -196,6 +196,9 @@ div.profile div.profile-photo {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
 }
 
 div.profile div.profile-content {
