@@ -85,7 +85,7 @@ h1.no-underline {
 
 .intro-section {
   height: 670px;
-  padding-top: 200px;
+  padding-top: 150px;
   text-align: center;
   background: #c0c0c0;
   background: url("../media/img/hip-square.png")
@@ -101,7 +101,7 @@ h1.no-underline {
 }
 
 .intro-sub-header {
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 20px;
   background-color: #fafafa;
 }
@@ -267,6 +267,20 @@ div.content-card {
       width: 190px;
       height: 190px;
     }
+  }
+
+  .profile {
+    position: relative;
+  }
+
+  .profile .profile-social {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .profile .profile-social img {
+    width: 40px;
+    height: 40px;
   }
 
   div.profile div.profile-content h2 {
