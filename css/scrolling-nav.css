@@ -4,54 +4,54 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-/* Background by Subtle Backgrounds */
-@import url('https://fonts.googleapis.com/css?family=Coda|Montserrat');
+ /* Background by Subtle Backgrounds */
+ @import url('https://fonts.googleapis.com/css?family=Coda|Montserrat');
 
-body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
+ body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 hr {
-    border-color: #333;
-    border-width: 3px;
+  border-color: #333;
+  border-width: 3px;
 }
 
 @media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
 
-    .top-nav-collapse {
-        padding: 0;
-    }
+  .top-nav-collapse {
+    padding: 0;
+  }
 
 }
 
 @media only screen and (max-width: 766px) {
-    .intro-header p{
-        font-size: 3rem; 
-    }
+  .intro-header p{
+    font-size: 3rem; 
+  }
 }
 
 
 /* Navbar custom styles */
 .navbar-default, .navbar-collapse {
-    border-color: #1B1F3A;
-    background: #1B1F3A;
+  border-color: #1B1F3A;
+  background: #1B1F3A;
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-collapse li a {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -68,128 +68,128 @@ of those sections to manage the look and feel of the site. */
 /* #FF7844 Laranja legal */
 
 h1 {
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 30px;
-    border-bottom: 3px solid;  
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+  border-bottom: 3px solid;  
 }
 
 h1.no-underline {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 .intro-section {
-    height: 670px;
-    padding-top: 200px;
-    text-align: center;
-    background: #c0c0c0;
-    background: url("../media/img/hip-square.png")
+  height: 670px;
+  padding-top: 200px;
+  text-align: center;
+  background: #c0c0c0;
+  background: url("../media/img/hip-square.png")
 }
 
 .intro-header p {
-    font-size: 5.2rem; 
-    font-family: 'Coda', cursive;
+  font-size: 5.2rem; 
+  font-family: 'Coda', cursive;
 }
 
 .intro-sub-header {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #fafafa;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fafafa;
 }
 
 .intro-sub-header p {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .what-section {
-    padding-top: 130px;
-    padding-bottom: 50px;
-    text-align: center;
-    background: #FF7844;
+  padding-top: 130px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #FF7844;
 }
 
 .how-section {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    background: #1B1F3A;
-    color: #fafafa;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background: #1B1F3A;
+  color: #fafafa;
 }
 
 .where-section {
-    padding-top: 50px;
-    text-align: center;
-    background: #fafafa;
+  padding-top: 50px;
+  text-align: center;
+  background: #fafafa;
 }
 
 .who-section {
-    padding-top: 50px;
-    text-align: center;
-    background: #1B1F3A;
-    color: #fafafa;
+  padding-top: 50px;
+  text-align: center;
+  background: #1B1F3A;
+  color: #fafafa;
 }
 
 .contact-section {
-    padding-top: 50px;
-    height: 100%;
-    text-align: center;
-    background: #FF7844;
+  padding-top: 50px;
+  height: 100%;
+  text-align: center;
+  background: #FF7844;
 }
 
 
 /* Custom */
 
 .full-width-row {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .full-width-row > div {
-    margin-left: -15px;
-    margin-right: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .banner{
-    width: 100%;
-    height: 500px;
-    background-position: center top;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .navbar-brand img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 div.content-card {
-    margin: 20px 0;
-    height: 500px;
-    background: #fafafa;
-    text-align: left;
+  margin: 20px 0;
+  height: 500px;
+  background: #fafafa;
+  text-align: left;
     //box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3)
-}
+  }
 
-div.content-card > div.content-img {
+  div.content-card > div.content-img {
     width: 100%;
     height: 200px;
     background-position: center top;
     background-repeat: no-repeat;
-}
+  }
 
-div.content-card > div.content-text {
+  div.content-card > div.content-text {
     height: 175px;
-}
+  }
 
-div.content-card  h3  a {
+  div.content-card  h3  a {
     color: #333;
-}
+  }
 
-a.read-more {
+  a.read-more {
     float: right;
-} 
+  } 
 
-div.profile {
+  div.profile {
     margin: 20px 0;
-}
+  }
 
-div.profile div.profile-photo {
+  div.profile div.profile-photo {
     background: #fff;
     width: 250px;
     height: 250px;
@@ -199,8 +199,8 @@ div.profile div.profile-photo {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 250px 250px;
-}
+  }
 
-div.profile div.profile-content {
+  div.profile div.profile-content {
 
-}
+  }
