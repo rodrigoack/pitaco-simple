@@ -37,12 +37,13 @@ hr {
 
 }
 
-@media only screen and (max-width: 766px) {
-  .intro-header p{
-    font-size: 3rem; 
-  }
+@media (max-width: 767px) {
+    .contact-section .text-right { text-align:center }
+    .contact-section .text-left { text-align:center }
+    .contact-section img {
+      margin: 35px 0;
+    }
 }
-
 
 /* Navbar custom styles */
 .navbar-default, .navbar-collapse {
@@ -67,6 +68,10 @@ of those sections to manage the look and feel of the site. */
 
 /* #FF7844 Laranja legal */
 
+a {
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
@@ -84,6 +89,10 @@ h1.no-underline {
   text-align: center;
   background: #c0c0c0;
   background: url("../media/img/hip-square.png")
+}
+
+.intro-section a {
+  color: #1B1F3A;
 }
 
 .intro-header p {
@@ -108,11 +117,19 @@ h1.no-underline {
   background: #FF7844;
 }
 
+.what-section a {
+  color: #1B1F3A;;
+}
+
 .how-section {
   padding-top: 50px;
   padding-bottom: 100px;
   background: #1B1F3A;
   color: #fafafa;
+}
+
+.how-section a {
+  color: #FF7844;
 }
 
 .where-section {
@@ -121,18 +138,62 @@ h1.no-underline {
   background: #fafafa;
 }
 
+.where-section a {
+  color: #1B1F3A;
+}
+
 .who-section {
   padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: #FF7844;
+}
+
+.who-section a {
+  color: #1B1F3A;
+}
+
+.contact-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
   background: #1B1F3A;
   color: #fafafa;
 }
 
-.contact-section {
-  padding-top: 50px;
-  height: 100%;
-  text-align: center;
-  background: #FF7844;
+.contact-section a {
+  color: #FF7844;
+  font-weight: bold;
+}
+
+@media(max-width:766px) {
+  .intro-section {
+    padding-top: 100px;
+  }
+
+  .intro-header p {
+    font-size: 3.5rem; 
+    margin: 0 20px;
+  }
+
+  .what-section {
+    padding-top: 50px;
+  }
+}
+
+@media(max-width:568px) {
+  .intro-section {
+    padding-top: 100px;
+  }
+
+  .intro-header p {
+    font-size: 3rem; 
+    margin: 0 20px;
+  }
+
+  .what-section {
+    padding-top: 50px;
+  }
 }
 
 
@@ -177,8 +238,8 @@ div.content-card {
     height: 175px;
   }
 
-  div.content-card  h3  a {
-    color: #333;
+  div.content-card h3 a {
+    color: #1B1F3A;
   }
 
   a.read-more {
@@ -201,6 +262,14 @@ div.content-card {
     background-size: 250px 250px;
   }
 
-  div.profile div.profile-content {
-
+  @media(max-width:568px){
+    div.profile div.profile-photo {
+      width: 190px;
+      height: 190px;
+    }
   }
+
+  div.profile div.profile-content h2 {
+    font-weight: bold;
+  }
+
