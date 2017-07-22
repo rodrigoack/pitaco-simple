@@ -265,12 +265,18 @@ div.content-card {
     background-repeat: no-repeat;
   }
 
-  div.content-card > div.content-text {
+  .content-text {
     height: 175px;
   }
 
   div.content-card h3 a {
     color: #1B1F3A;
+  }
+
+  @media(max-width:320px) {
+    .content-text {
+      height: 100%;
+    }
   }
 
   a.read-more {
@@ -279,6 +285,12 @@ div.content-card {
 
   div.profile {
     margin: 20px 0;
+  }
+
+  @media(max-width:414px) {
+    div.profile {
+      padding-bottom: 50px;
+    }
   }
 
   div.profile div.profile-photo {
@@ -293,13 +305,6 @@ div.content-card {
     background-size: 250px 250px;
   }
 
-  @media(max-width:320px){
-    div.profile div.profile-photo {
-      width: 190px;
-      height: 190px;
-    }
-  }
-
   @media(max-width:375px){
     div.profile div.profile-photo {
       width: 220px;
@@ -307,9 +312,10 @@ div.content-card {
     }
   }
 
-  @media(max-width:414px) {
-    div.profile {
-      padding-bottom: 50px;
+  @media(max-width:320px){
+    div.profile div.profile-photo {
+      width: 180px;
+      height: 180px;
     }
   }
 
