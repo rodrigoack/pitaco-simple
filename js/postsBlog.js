@@ -7,14 +7,15 @@ $(function() {
         console.log(json.records);
 
         var divContainer = document.getElementById("showPosts");
-
-        for (var i = 0; i < json.records.length; i++) {
+        console.log(json.records.length);
+        
+        for (var i = json.records.length - 1, count = 0; i > 0 && count < 3; i--, count++) {
 
             var post = document.createElement("div");
             post.setAttribute("class", "content-card col-xs-12 col-md-4");
 
-            post.innerHTML =    "<a href='" + json.records[i].link + ">" +
-                                    "<div class='content-img' style='background-image: url('" + json.records[i].image + "'); background-size: 450px;'> </div>" +
+            post.innerHTML =    "<a href='" + json.records[i].link + "'>" +
+                                    "<div class='content-img' style=\"background-image: url('" + json.records[i].image + "'); background-size: 450px;\"> </div>" +
                                 "</a>" +
                                 
                                 "<h3> <a href='" + json.records[i].link + "'>" + json.records[i].title + "</a> </h3>" +
