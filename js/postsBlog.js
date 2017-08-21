@@ -9,7 +9,7 @@ $(function() {
         var divContainer = document.getElementById("showPosts");
         console.log(json.records.length);
         
-        for (var i = json.records.length - 1, count = 0; i > 0 && count < 3; i--, count++) {
+        for (var i = json.records.length - 1, count = 0; i >= 0 && count < 3; i--, count++) {
 
             var post = document.createElement("div");
             post.setAttribute("class", "content-card col-xs-12 col-md-4");
