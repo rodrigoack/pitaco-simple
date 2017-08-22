@@ -1,13 +1,10 @@
-$(function() {
+$(document).ready(function() {
 
     var url = "https://script.google.com/macros/s/AKfycbxK-I4ecLXyiAWyjQQuov52_wLNwa0g3zTeE7NCkl33E_bsDZ-b/exec?action=read";
 
     $.getJSON(url, function (json) {
 
-        console.log(json.records);
-
         var divContainer = document.getElementById("showPosts");
-        console.log(json.records.length);
         
         for (var i = json.records.length - 1, count = 0; i >= 0 && count < 3; i--, count++) {
 
