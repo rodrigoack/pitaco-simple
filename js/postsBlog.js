@@ -4,18 +4,21 @@ $(function() {
 
     $.getJSON(url, function (json) {
 
+        console.log(json.records);
+
         var divContainer = document.getElementById("showPosts");
+        console.log(json.records.length);
         
         for (var i = json.records.length - 1, count = 0; i >= 0 && count < 3; i--, count++) {
 
             var post = document.createElement("div");
             post.setAttribute("class", "content-card col-xs-12 col-md-4");
 
-            post.innerHTML =    "<a href='" + json.records[i].link + "'>" +
+            post.innerHTML =    "<a href='" + json.records[i].link + "' target='_blank'>" +
                                     "<div class='content-img' style=\"background-image: url('" + json.records[i].image + "'); background-size: 450px;\"> </div>" +
                                 "</a>" +
                                 
-                                "<h3> <a href='" + json.records[i].link + "'>" + json.records[i].title + "</a> </h3>" +
+                                "<h3> <a href='" + json.records[i].link + "' target='_blank'>" + json.records[i].title + "</a> </h3>" +
                                 
                                 "<div class='author'><h4>" + json.records[i].author + "</h4> </div>" +
 
@@ -23,7 +26,7 @@ $(function() {
                                     "<p>" + json.records[i].description + "</p>" +
                                 "</div>" +
                                 
-                                "<a class='read-more hidden-xs' href='" + json.records[i].link + "'>CONTINUE LENDO</a>";
+                                "<a class='read-more hidden-xs' href='" + json.records[i].link + "' target='_blank'>CONTINUE LENDO</a>";
 
             divContainer.appendChild(post);
         }
