@@ -53,7 +53,11 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a, .navbar-collapse li a {
-  color: #fafafa;
+  color: #FAFAFA;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-collapse li a:hover {
+  color: #FF7844;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
